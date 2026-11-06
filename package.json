@@ -1,0 +1,12 @@
+{
+  "name": "minigit",
+  "version": "0.0.1",
+  "description": "A Git-like version system control",
+  "license": "ISC",
+  "author": "Kiyozawaa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
