@@ -28,6 +28,7 @@ node mygit.js init
 ## Commands
 
 `init`
+
 Initializes an empty repository.
 ```bash
 node mygit.js init
@@ -42,24 +43,28 @@ node mygit.js add .
 ```
 
 `commit`
+
 Creates a snapshot of the currently staged files.
 ```bash
 node mygit.js commit "Initial commit"
 ```
 
 `status`
+
 Displays new, modified, and deleted files.
 ```bash
 node mygit.js status
 ```
 
 `log`
+
 Displays the commit history.
 ```bash
 node mygit.js log
 ```
 
 `checkout`
+
 Switches to a specified commit and restores its snapshot.
 ```bash
 node mygit.js checkout <commit-id>
